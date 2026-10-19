@@ -11,4 +11,9 @@
 ##styling
 -prompt: (salin kode html) dari html itu, bisakah anda buatkan saya kerangka css, khususnya untuk bagian perwarnaannya, agar agar nyaman dilihat 
 -dipakai: kebanyakan di pewarnaan, dan penentuan display agar lebih menarik
--diubah: ukuran font, sedikit pewarnaan yg menyesuaikan lagi, dan beberapa ukuran 
+-diubah: kebanyakan hanya di color, background color, padding, margin, dll, lalu beberapa perubahan jenis display
+
+##Riwayat Transaksi
+-prompt:buatkan kode js untuk mengatur rewayat transaksi dari html berikut
+-dipakai: penggunaan create element
+-diubah: penamaan, dan penggunaan sesuai kebetuhan web

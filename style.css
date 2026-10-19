@@ -105,9 +105,15 @@ main {
     margin-top: 5px;
 }
 
-#error-msg {
+.erms{
     color: #dc2626;
-    font-size: 0.85rem;
-    font-weight: bold;
-    margin-bottom: 5px;
+}
+.daftar{
+    width: 100%;
+    margin-top: 20px;
+}
+.daftrans{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
