@@ -1,0 +1,113 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8fafc;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 1.4rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 450px;
+}
+
+main {
+    margin: 15px 0;
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.katru_pendapatan {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 15px;
+    background: white;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+}
+
+.kp {
+    padding: 5px 0;
+}
+
+.kartu_saldo {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    width: 100%;
+}
+
+.kartu {
+    flex: 1;
+    padding: 10px;
+    background: white;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#transaksi {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid #cbd5e1;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    gap: 10px;
+}
+
+.trans {
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.trans input, .trans select {
+    padding: 8px;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+    font-size: 0.95rem;
+}
+
+.h2_trans {
+    margin: 0 0 10px 0;
+    font-size: 1.1rem;
+}
+
+.btn-simpan {
+    padding: 10px;
+    background-color: #059669;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+#error-msg {
+    color: #dc2626;
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
